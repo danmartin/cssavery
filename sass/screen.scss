@@ -1,0 +1,55 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+
+    .page  {
+        clear: left;
+        display:block;
+        page-break-after:always;
+        }
+        
+ body {
+        width: 8.5in;
+        margin: .22in .1875in .22in .1875in;
+  font-family: "arial";
+        text-align: center;
+        }
+        h1 {
+  font-family: "arial";
+        	text-align: center;
+        	margin:0;
+        	padding:0;
+        	font-size:.8em;
+  font-weight: 300;
+        }
+        .f_left, .f_right{
+        	display:inline-block;
+        }
+        .f_left {
+        	width:50px;
+        	height:50px;
+        }
+        .f_right {
+        	font-size:.7em;
+        }
+        .title span {
+        	font-weight:700;
+        	color:tomato;
+        }
+    .label{
+        /* Avery 5160 labels -- CSS and HTML by MM at Boulder Information Services */
+        width: 2.025in; /* plus .6 inches from padding */
+        height: .875in; /* plus .125 inches from padding */
+        padding: .125in .3in 0;
+        margin-right: .125in; /* the gutter */
+
+        float: left;
+
+        text-align: center;
+        overflow: hidden;
+
+        outline: 1px dotted #eee; /* outline doesn't occupy space like border does */
+        }
