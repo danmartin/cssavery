@@ -1,8 +1,3 @@
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 17, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -23,66 +18,53 @@ time, mark, audio, video {
   font-size: 100%;
   vertical-align: baseline; }
 
-/* line 22, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1; }
 
-/* line 24, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none; }
 
-/* line 26, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 28, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle; }
 
-/* line 30, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none; }
-  /* line 103, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
   q:before, q:after, blockquote:before, blockquote:after {
     content: "";
     content: none; }
 
-/* line 32, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none; }
 
-/* line 116, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block; }
 
-/* line 18, ../sass/screen.scss */
 body {
   margin: 0;
   padding: 0; }
 
-/* line 22, ../sass/screen.scss */
 .page {
   width: 8.5in;
   margin: .30in .0075in .22in .0075in;
   font-family: "arial";
   text-align: center; }
-  /* line 10, ../sass/screen.scss */
   .page:after {
     content: "";
     display: block;
     clear: both;
     page-break-after: always; }
 
-/* line 29, ../sass/screen.scss */
 .page-break {
   clear: left;
   display: block;
   page-break-after: always; }
 
-/* line 35, ../sass/screen.scss */
 h1 {
   font-family: "arial";
   text-align: center;
@@ -91,25 +73,20 @@ h1 {
   font-size: .8em;
   font-weight: 300; }
 
-/* line 43, ../sass/screen.scss */
 .f_left, .f_right {
   display: inline-block; }
 
-/* line 46, ../sass/screen.scss */
 .f_left {
   width: 50px;
   height: 50px; }
 
-/* line 50, ../sass/screen.scss */
 .f_right {
   font-size: .7em; }
 
-/* line 53, ../sass/screen.scss */
 .title span {
   font-weight: 700;
   color: tomato; }
 
-/* line 57, ../sass/screen.scss */
 .label {
   /* Avery 5160 labels -- CSS and HTML by MM at Boulder Information Services */
   width: 2.025in;
