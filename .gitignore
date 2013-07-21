@@ -1,0 +1,7 @@
+.DS_STORE
+codekit-config.json
+.sass-cache/
+config.rb
+*.log
+*.sql
+*.exe
