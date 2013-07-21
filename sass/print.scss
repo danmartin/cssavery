@@ -4,6 +4,15 @@
 
 @import "compass/reset";
 
+@mixin clearfix {
+  &:after {
+    content: "";
+    clear: both;
+    display: table;
+	page-break-after:always;
+  }
+}
+
 body {
 	margin:0;
 	padding:0;
@@ -14,6 +23,7 @@ body {
         margin: .30in 0 .22in 0;
   font-family: "arial";
         text-align: center;
+        @include clearfix;
         }
         .page-break {
         clear: left;
