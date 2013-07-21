@@ -59,19 +59,24 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block; }
 
 /* line 8, ../sass/screen.scss */
+body {
+  margin: 0;
+  padding: 0; }
+
+/* line 12, ../sass/screen.scss */
 .page {
+  width: 8.5in;
+  margin: .30in .0075in .22in .0075in;
+  font-family: "arial";
+  text-align: center; }
+
+/* line 18, ../sass/screen.scss */
+.page-break {
   clear: left;
   display: block;
   page-break-after: always; }
 
-/* line 14, ../sass/screen.scss */
-body {
-  width: 8.5in;
-  margin: .22in .1875in .22in .1875in;
-  font-family: "arial";
-  text-align: center; }
-
-/* line 20, ../sass/screen.scss */
+/* line 24, ../sass/screen.scss */
 h1 {
   font-family: "arial";
   text-align: center;
@@ -80,25 +85,25 @@ h1 {
   font-size: .8em;
   font-weight: 300; }
 
-/* line 28, ../sass/screen.scss */
+/* line 32, ../sass/screen.scss */
 .f_left, .f_right {
   display: inline-block; }
 
-/* line 31, ../sass/screen.scss */
+/* line 35, ../sass/screen.scss */
 .f_left {
   width: 50px;
   height: 50px; }
 
-/* line 35, ../sass/screen.scss */
+/* line 39, ../sass/screen.scss */
 .f_right {
   font-size: .7em; }
 
-/* line 38, ../sass/screen.scss */
+/* line 42, ../sass/screen.scss */
 .title span {
   font-weight: 700;
   color: tomato; }
 
-/* line 42, ../sass/screen.scss */
+/* line 46, ../sass/screen.scss */
 .label {
   /* Avery 5160 labels -- CSS and HTML by MM at Boulder Information Services */
   width: 2.025in;

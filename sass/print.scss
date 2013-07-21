@@ -2,6 +2,8 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
 
+@import "compass/reset";
+
 body {
 	margin:0;
 	padding:0;
@@ -9,7 +11,7 @@ body {
 
     .page  {
         width: 8.5in;
-        margin: .30in .1875in .22in .1875in;
+        margin: .30in 0 .22in 0;
   font-family: "arial";
         text-align: center;
         }
