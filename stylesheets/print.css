@@ -45,10 +45,6 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block; }
 
-body {
-  margin: 0;
-  padding: 0; }
-
 .page {
   width: 8.5in;
   margin: 0;
