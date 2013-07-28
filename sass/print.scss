@@ -10,33 +10,16 @@
 
   }
 }
-
     
     .page  {
         width: 8.5in;
         margin:0;
-        padding: .30in 0 .22in 0;
+        padding: .50in 0 0 .30in;
   font-family: "arial";
         text-align: center;
 	page-break-after:always;
         }
 
-
-        h1 {
-  font-family: "arial";
-        	text-align: center;
-        	margin:0;
-        	padding:0;
-        	font-size:.8em;
-  font-weight: 300;
-        }
-        .f_left, .f_right{
-        	display:inline-block;
-        }
-        .f_left {
-        	width:50px;
-        	height:50px;
-        }
         .f_right {
         	font-size:.7em;
         }
@@ -44,17 +27,21 @@
         	font-weight:700;
         	color:tomato;
         }
+
     .label{
-        /* Avery 8160 labels -- CSS and HTML by MM at Boulder Information Services */
-        width: 2.025in; /* plus .6 inches from padding */
-        height: .875in; /* plus .125 inches from padding */
-        padding: .125in .3in 0;
-        margin-right: .125in;  
+         -moz-box-sizing: border-box; 
+         -webkit-box-sizing: border-box; 
+         box-sizing: border-box;
+        width: 2.625in; 
+        height: 1in; 
+        padding: .025in .3in 0;
+        margin-right: .155in;  
+        margin-top: .025in;  
 
         float: left;
 
         text-align: center;
         overflow: hidden;
 
-        outline: 1px dotted #eee; /* outline doesn't occupy space like border does */
+        outline: 1px dotted #ccc; /* outline doesn't occupy space like border does */
         }
